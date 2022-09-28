@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body{
+   font-family: "Lato";
+   font-style: normal;
+   font-weight: 400;
+   line-height: 160%;
+   color: #424551;
+}
+
+.container {
+   max-width: 600px;
+   margin: 0 auto;
+}
+
+
+h2 {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%; 
+   color: #1E212C;
+}
+h3{
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 150%;
+   color: #1E212C;
+}
+
+h4 {
+font-weight: 700;
+line-height: 150%;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #1E212C;
+}
+
+ul{
+   margin-left: 30px;
+ }
+ 
+ .curator ul{
+   margin-bottom: 32px;
+}
+
+.text{
+   margin-bottom: 50px;
+}
+
+.about h2{
+   margin-bottom: 40px;
+}
+
+.about p{
+   margin-bottom: 48px;
+}
+
+.social {
+   display: inline-block;
+   margin-right: 25px;
+}
+
+.about h3{
+   margin-bottom: 24px;
+}
+
+.about li::before {
+ content: "";
+ background: url(../img/check.svg) 0 2px no-repeat;
+  padding-left: 30px;
+  margin-left: -30px;
+}
+
+.about li:not(:last-child) {
+   margin-bottom: 4px;
+}
+
+.curator h4{
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 150%;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: #1E212C;
+}
+
+.curator h2{
+   margin-bottom: 16px;
+}
+
+.curator p{
+   margin-bottom: 32px;
+}
+
+.curator li::before {
+   content: "";
+   display: inline-block;
+ 
+}
+
+.curator li:first-child{
+   padding-left: 20px;
+   margin-left: -30px;
+   background: url(../img/Star.svg) 0 5px no-repeat;
+}
+
+.curator li:last-child{
+   padding-left: 20px;
+   margin-left: -30px;
+   background: url(../img/body.svg) 0 5px no-repeat;
+}
+
+.curator li:nth-child(even){
+   padding-left: 20px;
+   margin-left: -30px;
+   background: url(../img/play.svg) 0 5px no-repeat;
+}
+
+.container h3{
+   margin-bottom: 40px;
+}
+
+.menu-list {
+   margin-bottom: 30px;
+}
+
+.menu-item{
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 22px;
+}
+
+.pseudo {
+   display: inline-block;
+   margin-top: 2px;
+   margin-bottom: 50px;
+}
+.pseudo:hover{
+   margin-top: -2px;
+}
+
+.link{
+   display: inline-block;
+   text-transform: uppercase;
+   margin: 0 20px;
+   padding: 15px;
+   background-color: #ff4500;
+   color: #000000;
+   border-radius: 50%;
+   box-shadow: 10px 5px 1px #424551;
+   border: 2px solid transparent;
+}
+
+.link:hover{
+   color: #ff4500;
+   background-color: #000000;
+   opacity: 0.8;
+   box-shadow: 4px 3px 1px #424551;
+   border: 2px solid #ff4500;
+   margin-top: 2px;
+}
+
+.link:active{
+   color: #ff0000;
+   border: 2px solid #ff0000;
+}
+
+.link:visited {
+   background-color: #0000ff;
+   color: #000000;
+}
+
+.link:focus{
+   outline: 4px solid #ffff00;
+}
+
+.hidden-list{
+   margin-bottom: 40px;
+   display: none;
+}
+
+.hidden-list:target {
+   display: block;
+}
+
+.position {
+   display: none;
+   margin-bottom: 40px;
+}
+
+.position li:first-child{
+   color: #ff0000;
+   text-transform: uppercase;
+}
+
+.position li:nth-child(4) {
+   color: #0000ff;
+}
+
+.position li:not(:last-child){
+ font-weight: 700;
+}
+
+.position li:nth-child(odd) {
+   border: 3px solid #000000;
+}
+.position li:nth-child(even) {
+   background-color: #00008b37;
+}
+
+.position:target{
+   display:block;
+}
+
+.game-start {
+   display: none;
+   margin: 0 auto;
+  height: 370px;
+}
+
+.game-start:target{
+   display: block;
+}
+
+.start {
+   margin-left: 30px;
+   width: 100px;
+   height: 50px;
+   text-align: center;
+   text-transform: uppercase;
+   background-color: rgb(181, 133, 133);
+}
+
+.first {
+   width: 400px;
+   height: 25px;
+   background-color: rgba(0, 0, 255, 0.719);
+   visibility: hidden;
+}
+
+.start:hover .first{
+   visibility: visible;
+}
+
+.second {
+   margin-left: 360px;
+   width: 30px;
+   height: 100px;
+   margin-left: 400px;
+   background-color: rgba(0, 0, 255, 0.719);
+}
+
+.third{
+   width: 430px;
+   height: 15px;
+   background-color: rgba(0, 0, 255, 0.719);
+   
+}
+
+.fourth {
+   width: 16px;
+   height: 120px;
+   background-color: rgba(0, 0, 255, 0.719);
+}
+
+.fifth{
+   margin-left: 3px;
+   width: 10px;
+   height: 10px;
+   background-color: #000000;
+}
+
+.fifth p{
+   margin-left: 125px;
+   width: 200px;
+   font-size: 14px;
+   border-radius: 50%;
+   text-align: center;
+   background-color: darkslategray;
+   text-transform: uppercase;
+   color: white;
+   padding: 25px;
+   opacity: 0;
+   transition: all 1s;
+}
+
+.fifth:hover p{
+   transition: all 2s;
+   opacity: 1;
+   border-radius: 0%;
+}
